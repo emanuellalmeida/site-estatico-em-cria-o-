@@ -1,0 +1,148 @@
+/* Esilo da pagina */
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    border:0;
+    font-family: 'Inter', 'Lucida Sans Regular';
+    color: white;
+    background-color: #232121;
+    
+}
+
+/* nome da loja(cabeçalho)*/
+.cabeçalho h3{
+    z-index: 1;
+    position: relative;
+    top: 60px;
+    right: 4%;
+    text-align:center;
+    font-size: 42px;   
+    font-family: 'Inter', 'black'; 
+}
+
+/* separação das letras(cabeçalho)*/
+div span{
+    margin-right: 18%;
+    position: relative;
+    margin-left: 11%;
+
+}
+
+
+/* logo */
+.logo{
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    width: 89px;
+    height: 89px;
+}
+
+/* cabeçalho */
+.cabeçalho{
+    text-align: center;
+    padding-bottom:  1.5%;
+    background-color: black;
+}
+
+/* navegação */
+.navegação{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    background-color: #232121;
+    position: relative;
+}
+
+/* letras navegação */
+.navegação a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 50px 0px 0px;
+    margin-left: 9%;
+}
+
+/* letras navegação(passar mouse em cima) */
+.navegação a:hover{
+    color: gray;
+}
+
+/* foto_da_primeira_tela */
+.img_central{
+    width: 100%;
+}
+
+/* rodape */
+.info{
+    font-size: 20px;
+    position: relative;
+    margin-top: 1%;
+    margin-bottom: 0;
+    left: 38px;
+}
+
+div footer{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.icon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 0.5% 0% 2% 1.5%;
+    left:30px;
+    bottom: -12px;
+    
+}
+
+.contato_email{
+    font-size: 12px;
+    position: relative;
+    left: 450px;
+    bottom: 48px;
+}
+
+.o_email{
+    text-decoration: underline;
+    font-size: 12px;
+    position: relative;
+    left: 450px;
+    bottom: 46px;
+}
+
+.contato{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 120px;
+    bottom: 15px;   
+}
+
+.direitos{
+    text-shadow:  2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.075);
+    font-size: 12px;
+    position: relative;
+    left: 800px;
+    bottom: 60px;
+}
+
+.local{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 1400px;
+    bottom: 105px; 
+    position: relative;
+
+  
+
+}
